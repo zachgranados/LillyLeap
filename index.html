@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+   <nav>
+       <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+       <!-- Top Navigation Menu -->
+       <div class="topnav">
+         <a href="index.html" class="active">LillyLeap</a>
+         <!-- Navigation links (hidden by default) -->
+         <div id="myLinks">
+        <a href="dosing.html">Medical Calendar</a>
+        <a href="workout.html"> Today's Workouts</a>
+        <a href="game.html"> Your Achievements</a>
+         </div>
+         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+         <a href="javascript:void(0);" class= "icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+         </a>
+       </div>
+       
+       <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+   </nav>
+
+   <div class = "logo">
+    <p> Welcome to LillyLeap, your premier online weight loss support system! We're here for you at every step of your journey, guiding you towards recovery and unlocking a healthier you one leap at a time. Thank you for entrusting LillyLeap with your path to wellness!</p>
+
+    <a href ="https://www.zepbound.lilly.com/what-is-zepbound"><img src = "images/zepbound-dashboard.webp"></a> 
+   </div>
+
+   <div class = "calPreview">
+     <p> Ensure you never miss a dose with our integrated medical calendar. Explore the Medical Calendar page to easily keep track of your medication schedule!</p>
+
+     <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&mode=AGENDA&src=emNiZ0B1bWljaC5lZHU&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y180MjY2NmE4NDAyMGNlY2MzNzY1ZWIzZmFmZjhjMGY4NTU0ODc0ZGM3NjBmZGQ3YzNlYmUwNmEzYWFmNWQ4N2M2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y18yNjI4NzYwZDQwMWNmNzg0NmUyZmVkYTViZjg0YWIxNjkyN2FlMjZmNzlhNTJjMmQzNDU4YzJjZWIyNmNmMDEwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19xNjUwMWlhbXQ0dGQ0YmUwZ2gwNWZ1bzVlY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YTVuczJ0bGN2ajNza3Fpa2hhZmJxcmlldjdoNGRkczVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%23616161&color=%237CB342&color=%23F6BF26&color=%23616161" style="border:solid 1px #777" width="375" height="400" frameborder="0" scrolling="no"></iframe>
+
+   </div>
+
+    
+</body>
+</html>

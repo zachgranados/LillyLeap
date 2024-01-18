@@ -1,0 +1,81 @@
+/* Style the navigation menu */
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    width: 100%
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background:  #D52B1E;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #D52B1E;
+    color: white;
+  }
+
+  /* DASHBOARD */
+
+  .logo p {
+    margin: 15px;
+    font-size: 125%;
+    padding: 3px;
+    text-align: center;
+
+    background-color: white;
+    border: 2px solid #D52B1E; 
+  }
+
+  .logo img {
+    border: 2px solid #D52B1E; 
+
+    width: 85%;
+    margin: 7%;
+  }
+
+  .calPreview p{
+    margin: 15px;
+    font-size: 125%;
+    padding: 3px;
+    text-align: center;
+
+    background-color: white;
+    border: 2px solid #D52B1E; 
+  }
+
+  .calPreview iframe{
+    height: fit-content;
+    width: 85%;
+    overflow: auto;
+  }
