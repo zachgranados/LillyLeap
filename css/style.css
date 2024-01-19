@@ -81,6 +81,7 @@
 
     border: 2px solid #D52B1E;
     margin: 6%;
+    height: 175px;
   }
 
   .footer {
@@ -91,4 +92,57 @@
     background-color: #D52B1E;
     color: white;
     text-align: center;
+    margin-top: 15px;
+  }
+
+  .reminder{
+    margin: 15px;
+    font-size: 125%;
+    padding: 3px;
+    text-align: center;
+
+    background-color: white;
+    border: 2px solid #D52B1E;
+  }
+
+  input[type=text]{
+    border: 2px solid #D52B1E;
+    margin: 10px;
+  }
+
+  input[type = submit]{
+    background-color: #D52B1E;
+    padding: 2px;
+    color: white;
+    margin-left: 15%;
+  }
+
+  input[type = checkbox]{
+    margin-left: 50%;
+    border: 25px solid #D52B1E;
+  }
+
+  .calendar p{
+    margin-top: 15px;
+    font-size: 150%;
+  }
+
+  .Missed p{
+    margin: 15px;
+    font-size: 125%;
+    padding: 3px;
+    text-align: center;
+
+    background-color: white;
+    border: 2px solid #D52B1E;
+  }
+
+  .calendar iframe{
+    height: fit-content;
+    width: 85%;
+    overflow: auto;
+
+    border: 2px solid #D52B1E;
+    margin: 6%;
+    height: 300px;
   }
